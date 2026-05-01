@@ -105,9 +105,7 @@ GET /stats/{code}
 ## 📸 Screenshots
 
 ```
-## 📸 Screenshot
-
-![LinkSphere Screenshot](./images/Screenshot-1.png)
+![LinkSphere Screenshot](../images/Screenshot-1.png)
 ```
 
 ---
