@@ -15,7 +15,7 @@ public class UrlController {
     @Autowired
     private UrlService service;
 
-    // ✅ CREATE SHORT URL (with expiry support)
+    // create sort (with expiry support)
     @PostMapping("/shorten")
     public ResponseEntity<?> shorten(@RequestBody UrlRequest request) {
 
@@ -28,7 +28,7 @@ public class UrlController {
         return ResponseEntity.ok("http://localhost:8080/" + shortCode);
     }
 
-    // ✅ REDIRECT (with click count + expiry handled in service)
+    // redirect (with click count + expiry handled in service)
     @GetMapping("/{code}")
     public ResponseEntity<?> redirect(@PathVariable String code) {
 
