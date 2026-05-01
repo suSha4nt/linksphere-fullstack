@@ -42,7 +42,7 @@ LinkSphere is a scalable URL shortening platform that transforms long URLs into 
 
 ### Database
 
-* MySQL / PostgreSQL
+* PostgreSQL
 
 ---
 
@@ -93,7 +93,7 @@ GET /stats/{code}
 
 ```json
 {
-  "originalUrl": "https://example.com",
+  "originalUrl": "https://google.com",
   "clickCount": 25,
   "createdAt": "2026-05-01",
   "expiryDate": "2026-06-01"
@@ -105,7 +105,7 @@ GET /stats/{code}
 ## 📸 Screenshots
 
 ```md
-<img width="1920" height="1080" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/1e7d8b85-3938-450b-aed2-23be953d4f9d" />
+<img width="1920" height="1080" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/fa2f8ab4-324b-4701-97b0-0d68255903c3" />
 
 ```
 
@@ -181,5 +181,4 @@ linksphere/
 
 ## 👨‍💻 Author
 # Susanta
-Your Name
-GitHub: https://github.com/your-username
+GitHub: https://github.com/suSha4nt
