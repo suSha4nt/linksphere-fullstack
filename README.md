@@ -104,9 +104,8 @@ GET /stats/{code}
 
 ## 📸 Screenshots
 
-```md
-<img width="1920" height="1080" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/fa2f8ab4-324b-4701-97b0-0d68255903c3" />
-
+```
+![LinkSphere Screenshot](../images/Screenshot-1.png)
 ```
 
 ---
