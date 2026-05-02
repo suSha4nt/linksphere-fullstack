@@ -42,19 +42,19 @@ public class UrlController {
 
         } catch (RuntimeException ex) {
 
-            // 🔥 Expired link
+            // Expired link
             if (ex.getMessage().equals("EXPIRED")) {
                 return ResponseEntity.status(HttpStatus.GONE)
                         .body("This link has expired");
             }
 
-            // 🔥 Not found
+            // Not found
             return ResponseEntity.status(HttpStatus.NOT_FOUND)
                     .body("Short URL not found");
         }
     }
 
-    // ✅ STATS API (analytics)
+    // STATS API (analytics)
     @GetMapping("/stats/{code}")
     public ResponseEntity<?> stats(@PathVariable String code) {
         return ResponseEntity.ok(service.getStats(code));
