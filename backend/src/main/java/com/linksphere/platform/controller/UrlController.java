@@ -1,6 +1,6 @@
 package com.linksphere.platform.controller;
 
-import com.linksphere.platform.DTO.UrlRequest;
+import com.linksphere.platform.dto.UrlRequest;
 import com.linksphere.platform.service.UrlService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;

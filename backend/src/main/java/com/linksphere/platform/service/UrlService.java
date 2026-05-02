@@ -1,6 +1,6 @@
 package com.linksphere.platform.service;
 
-import com.linksphere.platform.DTO.UrlRequest;
+import com.linksphere.platform.dto.UrlRequest;
 import com.linksphere.platform.entity.UrlMapping;
 import com.linksphere.platform.repository.UrlRepository;
 import org.springframework.beans.factory.annotation.Autowired;

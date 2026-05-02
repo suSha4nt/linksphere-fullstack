@@ -1,4 +1,4 @@
-package com.linksphere.platform.DTO;
+package com.linksphere.platform.dto;
 
 import lombok.Data;
 
